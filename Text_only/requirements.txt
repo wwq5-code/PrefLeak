@@ -1,0 +1,11 @@
+# Install the official TRL checkout as described in the repository README.
+accelerate>=1.15
+datasets>=5.1
+numpy>=1.26
+peft>=0.21
+Pillow>=12
+scikit-learn>=1.9
+scipy>=1.18
+torch>=2.14
+torchvision
+transformers>=5.22

@@ -1,0 +1,926 @@
+[
+  {
+    "probe_id": "remote_000",
+    "family": "arithmetic",
+    "kind": "choice",
+    "prompt": "Compute 11 + 7.\nA. 18\nB. 19\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_001",
+    "family": "arithmetic",
+    "kind": "choice",
+    "prompt": "Compute 12 + 10.\nA. 20\nB. 22\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_002",
+    "family": "arithmetic",
+    "kind": "choice",
+    "prompt": "Compute 13 + 13.\nA. 26\nB. 27\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_003",
+    "family": "arithmetic",
+    "kind": "choice",
+    "prompt": "Compute 14 + 16.\nA. 28\nB. 30\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_004",
+    "family": "arithmetic",
+    "kind": "choice",
+    "prompt": "Compute 15 + 19.\nA. 34\nB. 35\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_005",
+    "family": "arithmetic",
+    "kind": "choice",
+    "prompt": "Compute 16 + 22.\nA. 36\nB. 38\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_006",
+    "family": "arithmetic",
+    "kind": "choice",
+    "prompt": "Compute 17 + 25.\nA. 42\nB. 43\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_007",
+    "family": "arithmetic",
+    "kind": "choice",
+    "prompt": "Compute 18 + 9.\nA. 25\nB. 27\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_008",
+    "family": "arithmetic",
+    "kind": "choice",
+    "prompt": "Compute 19 + 12.\nA. 31\nB. 32\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_009",
+    "family": "arithmetic",
+    "kind": "choice",
+    "prompt": "Compute 20 + 15.\nA. 33\nB. 35\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_010",
+    "family": "arithmetic",
+    "kind": "choice",
+    "prompt": "Compute 21 + 18.\nA. 39\nB. 40\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_011",
+    "family": "arithmetic",
+    "kind": "choice",
+    "prompt": "Compute 22 + 21.\nA. 41\nB. 43\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_012",
+    "family": "arithmetic",
+    "kind": "choice",
+    "prompt": "Compute 23 + 24.\nA. 47\nB. 48\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_013",
+    "family": "arithmetic",
+    "kind": "choice",
+    "prompt": "Compute 24 + 8.\nA. 30\nB. 32\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_014",
+    "family": "arithmetic",
+    "kind": "choice",
+    "prompt": "Compute 25 + 11.\nA. 36\nB. 37\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_015",
+    "family": "arithmetic",
+    "kind": "choice",
+    "prompt": "Compute 26 + 14.\nA. 38\nB. 40\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_016",
+    "family": "arithmetic",
+    "kind": "choice",
+    "prompt": "Compute 3 multiplied by 2.\nA. 6\nB. 8\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_017",
+    "family": "arithmetic",
+    "kind": "choice",
+    "prompt": "Compute 4 multiplied by 3.\nA. 8\nB. 12\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_018",
+    "family": "arithmetic",
+    "kind": "choice",
+    "prompt": "Compute 5 multiplied by 4.\nA. 20\nB. 24\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_019",
+    "family": "arithmetic",
+    "kind": "choice",
+    "prompt": "Compute 6 multiplied by 5.\nA. 24\nB. 30\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_020",
+    "family": "arithmetic",
+    "kind": "choice",
+    "prompt": "Compute 7 multiplied by 6.\nA. 42\nB. 48\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_021",
+    "family": "arithmetic",
+    "kind": "choice",
+    "prompt": "Compute 8 multiplied by 7.\nA. 48\nB. 56\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_022",
+    "family": "arithmetic",
+    "kind": "choice",
+    "prompt": "Compute 9 multiplied by 8.\nA. 72\nB. 80\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_023",
+    "family": "arithmetic",
+    "kind": "choice",
+    "prompt": "Compute 10 multiplied by 2.\nA. 10\nB. 20\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_024",
+    "family": "arithmetic",
+    "kind": "choice",
+    "prompt": "Compute 11 multiplied by 3.\nA. 33\nB. 36\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_025",
+    "family": "arithmetic",
+    "kind": "choice",
+    "prompt": "Compute 12 multiplied by 4.\nA. 36\nB. 48\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_026",
+    "family": "arithmetic",
+    "kind": "choice",
+    "prompt": "Compute 13 multiplied by 5.\nA. 65\nB. 70\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_027",
+    "family": "arithmetic",
+    "kind": "choice",
+    "prompt": "Compute 14 multiplied by 6.\nA. 70\nB. 84\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_028",
+    "family": "comparison",
+    "kind": "choice",
+    "prompt": "Which numerical statement is true?\nA. 22 is greater than 20\nB. 20 is greater than 22\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_029",
+    "family": "comparison",
+    "kind": "choice",
+    "prompt": "Which numerical statement is true?\nA. 23 is greater than 26\nB. 26 is greater than 23\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_030",
+    "family": "comparison",
+    "kind": "choice",
+    "prompt": "Which numerical statement is true?\nA. 30 is greater than 26\nB. 26 is greater than 30\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_031",
+    "family": "comparison",
+    "kind": "choice",
+    "prompt": "Which numerical statement is true?\nA. 29 is greater than 34\nB. 34 is greater than 29\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_032",
+    "family": "comparison",
+    "kind": "choice",
+    "prompt": "Which numerical statement is true?\nA. 38 is greater than 32\nB. 32 is greater than 38\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_033",
+    "family": "comparison",
+    "kind": "choice",
+    "prompt": "Which numerical statement is true?\nA. 35 is greater than 37\nB. 37 is greater than 35\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_034",
+    "family": "comparison",
+    "kind": "choice",
+    "prompt": "Which numerical statement is true?\nA. 41 is greater than 38\nB. 38 is greater than 41\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_035",
+    "family": "comparison",
+    "kind": "choice",
+    "prompt": "Which numerical statement is true?\nA. 41 is greater than 45\nB. 45 is greater than 41\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_036",
+    "family": "comparison",
+    "kind": "choice",
+    "prompt": "Which numerical statement is true?\nA. 49 is greater than 44\nB. 44 is greater than 49\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_037",
+    "family": "comparison",
+    "kind": "choice",
+    "prompt": "Which numerical statement is true?\nA. 47 is greater than 53\nB. 53 is greater than 47\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_038",
+    "family": "comparison",
+    "kind": "choice",
+    "prompt": "Which numerical statement is true?\nA. 52 is greater than 50\nB. 50 is greater than 52\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_039",
+    "family": "comparison",
+    "kind": "choice",
+    "prompt": "Which numerical statement is true?\nA. 53 is greater than 56\nB. 56 is greater than 53\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_040",
+    "family": "sequence",
+    "kind": "choice",
+    "prompt": "Continue the sequence: 2, 4, 6, 8, ...\nA. 10\nB. 12\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_041",
+    "family": "sequence",
+    "kind": "choice",
+    "prompt": "Continue the sequence: 3, 6, 9, 12, ...\nA. 17\nB. 15\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_042",
+    "family": "sequence",
+    "kind": "choice",
+    "prompt": "Continue the sequence: 4, 8, 12, 16, ...\nA. 20\nB. 22\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_043",
+    "family": "sequence",
+    "kind": "choice",
+    "prompt": "Continue the sequence: 5, 10, 15, 20, ...\nA. 27\nB. 25\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_044",
+    "family": "sequence",
+    "kind": "choice",
+    "prompt": "Continue the sequence: 6, 8, 10, 12, ...\nA. 14\nB. 16\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_045",
+    "family": "sequence",
+    "kind": "choice",
+    "prompt": "Continue the sequence: 7, 10, 13, 16, ...\nA. 21\nB. 19\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_046",
+    "family": "sequence",
+    "kind": "choice",
+    "prompt": "Continue the sequence: 8, 12, 16, 20, ...\nA. 24\nB. 26\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_047",
+    "family": "sequence",
+    "kind": "choice",
+    "prompt": "Continue the sequence: 9, 14, 19, 24, ...\nA. 31\nB. 29\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_048",
+    "family": "sequence",
+    "kind": "choice",
+    "prompt": "Continue the sequence: 10, 12, 14, 16, ...\nA. 18\nB. 20\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_049",
+    "family": "sequence",
+    "kind": "choice",
+    "prompt": "Continue the sequence: 11, 14, 17, 20, ...\nA. 25\nB. 23\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_050",
+    "family": "sequence",
+    "kind": "choice",
+    "prompt": "Continue the sequence: 12, 16, 20, 24, ...\nA. 28\nB. 30\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_051",
+    "family": "sequence",
+    "kind": "choice",
+    "prompt": "Continue the sequence: 13, 18, 23, 28, ...\nA. 35\nB. 33\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_052",
+    "family": "knowledge",
+    "kind": "choice",
+    "prompt": "Which statement is accurate?\nA. A week has seven days\nB. A week has nine days\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_053",
+    "family": "knowledge",
+    "kind": "choice",
+    "prompt": "Which statement is accurate?\nA. Water freezes at fifty degrees Celsius\nB. Water freezes at zero degrees Celsius\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_054",
+    "family": "knowledge",
+    "kind": "choice",
+    "prompt": "Which statement is accurate?\nA. Earth orbits the Sun\nB. The Sun orbits Earth once each day\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_055",
+    "family": "knowledge",
+    "kind": "choice",
+    "prompt": "Which statement is accurate?\nA. A triangle has five sides\nB. A triangle has three sides\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_056",
+    "family": "knowledge",
+    "kind": "choice",
+    "prompt": "Which statement is accurate?\nA. A dozen contains twelve items\nB. A dozen contains twenty items\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_057",
+    "family": "knowledge",
+    "kind": "choice",
+    "prompt": "Which statement is accurate?\nA. Tokyo is in Brazil\nB. Tokyo is in Japan\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_058",
+    "family": "knowledge",
+    "kind": "choice",
+    "prompt": "Which statement is accurate?\nA. The Nile is a river\nB. The Nile is a mountain\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_059",
+    "family": "knowledge",
+    "kind": "choice",
+    "prompt": "Which statement is accurate?\nA. A violin is a planet\nB. A violin is a musical instrument\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_060",
+    "family": "knowledge",
+    "kind": "choice",
+    "prompt": "Which statement is accurate?\nA. Copper is a chemical element\nB. Copper is a calendar month\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_061",
+    "family": "knowledge",
+    "kind": "choice",
+    "prompt": "Which statement is accurate?\nA. An octagon has six sides\nB. An octagon has eight sides\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_062",
+    "family": "knowledge",
+    "kind": "choice",
+    "prompt": "Which statement is accurate?\nA. Paris is in France\nB. Paris is in Canada\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_063",
+    "family": "knowledge",
+    "kind": "choice",
+    "prompt": "Which statement is accurate?\nA. Mercury is a continent\nB. Mercury is a planet\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_064",
+    "family": "knowledge",
+    "kind": "choice",
+    "prompt": "Which statement is accurate?\nA. A kilogram is a unit of mass\nB. A kilogram is a unit of time\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_065",
+    "family": "knowledge",
+    "kind": "choice",
+    "prompt": "Which statement is accurate?\nA. January comes after December in the same year\nB. January comes before February\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_066",
+    "family": "knowledge",
+    "kind": "choice",
+    "prompt": "Which statement is accurate?\nA. A cube has six faces\nB. A cube has three faces\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_067",
+    "family": "knowledge",
+    "kind": "choice",
+    "prompt": "Which statement is accurate?\nA. Sound is a calendar date\nB. Sound can travel through air\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_068",
+    "family": "lexical",
+    "kind": "choice",
+    "prompt": "Which term is closest in meaning to 'rapid'?\nA. quick\nB. silent\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_069",
+    "family": "lexical",
+    "kind": "choice",
+    "prompt": "Which term is closest in meaning to 'silent'?\nA. heavy\nB. quiet\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_070",
+    "family": "lexical",
+    "kind": "choice",
+    "prompt": "Which term is closest in meaning to 'ancient'?\nA. old\nB. narrow\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_071",
+    "family": "lexical",
+    "kind": "choice",
+    "prompt": "Which term is closest in meaning to 'tiny'?\nA. distant\nB. small\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_072",
+    "family": "lexical",
+    "kind": "choice",
+    "prompt": "Which term is closest in meaning to 'assist'?\nA. help\nB. divide\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_073",
+    "family": "lexical",
+    "kind": "choice",
+    "prompt": "Which term is closest in meaning to 'begin'?\nA. borrow\nB. start\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_074",
+    "family": "lexical",
+    "kind": "choice",
+    "prompt": "Which term is closest in meaning to 'purchase'?\nA. buy\nB. forget\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_075",
+    "family": "lexical",
+    "kind": "choice",
+    "prompt": "Which term is closest in meaning to 'reply'?\nA. climb\nB. answer\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_076",
+    "family": "lexical",
+    "kind": "choice",
+    "prompt": "Which term is closest in meaning to 'difficult'?\nA. hard\nB. empty\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_077",
+    "family": "lexical",
+    "kind": "choice",
+    "prompt": "Which term is closest in meaning to 'honest'?\nA. wooden\nB. truthful\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_078",
+    "family": "lexical",
+    "kind": "choice",
+    "prompt": "Which term is closest in meaning to 'repair'?\nA. fix\nB. scatter\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_079",
+    "family": "lexical",
+    "kind": "choice",
+    "prompt": "Which term is closest in meaning to 'select'?\nA. measure\nB. choose\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_080",
+    "family": "lexical",
+    "kind": "choice",
+    "prompt": "Which term is closest in meaning to 'nearby'?\nA. close\nB. formal\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_081",
+    "family": "lexical",
+    "kind": "choice",
+    "prompt": "Which term is closest in meaning to 'depart'?\nA. count\nB. leave\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_082",
+    "family": "lexical",
+    "kind": "choice",
+    "prompt": "Which term is closest in meaning to 'permit'?\nA. allow\nB. reduce\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_083",
+    "family": "lexical",
+    "kind": "choice",
+    "prompt": "Which term is closest in meaning to 'observe'?\nA. contain\nB. notice\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_084",
+    "family": "grammar",
+    "kind": "choice",
+    "prompt": "Which sentence is grammatically correct?\nA. The students are ready.\nB. The students is ready.\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_085",
+    "family": "grammar",
+    "kind": "choice",
+    "prompt": "Which sentence is grammatically correct?\nA. She write every morning.\nB. She writes every morning.\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_086",
+    "family": "grammar",
+    "kind": "choice",
+    "prompt": "Which sentence is grammatically correct?\nA. They were waiting outside.\nB. They was waiting outside.\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_087",
+    "family": "grammar",
+    "kind": "choice",
+    "prompt": "Which sentence is grammatically correct?\nA. This book belong to me.\nB. This book belongs to me.\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_088",
+    "family": "grammar",
+    "kind": "choice",
+    "prompt": "Which sentence is grammatically correct?\nA. We have finished the task.\nB. We has finished the task.\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_089",
+    "family": "grammar",
+    "kind": "choice",
+    "prompt": "Which sentence is grammatically correct?\nA. Each member receive a ticket.\nB. Each member receives a ticket.\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_090",
+    "family": "grammar",
+    "kind": "choice",
+    "prompt": "Which sentence is grammatically correct?\nA. The keys are on the table.\nB. The keys is on the table.\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_091",
+    "family": "grammar",
+    "kind": "choice",
+    "prompt": "Which sentence is grammatically correct?\nA. He do not know the answer.\nB. He does not know the answer.\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_092",
+    "family": "grammar",
+    "kind": "choice",
+    "prompt": "Which sentence is grammatically correct?\nA. There are two chairs in the room.\nB. There is two chairs in the room.\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_093",
+    "family": "grammar",
+    "kind": "choice",
+    "prompt": "Which sentence is grammatically correct?\nA. My friend visit on Fridays.\nB. My friend visits on Fridays.\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_094",
+    "family": "grammar",
+    "kind": "choice",
+    "prompt": "Which sentence is grammatically correct?\nA. The report was completed yesterday.\nB. The report were completed yesterday.\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_095",
+    "family": "grammar",
+    "kind": "choice",
+    "prompt": "Which sentence is grammatically correct?\nA. Neither route are available.\nB. Neither route is available.\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_096",
+    "family": "logic",
+    "kind": "choice",
+    "prompt": "All kems are torps. Mira is a kem. Which conclusion follows?\nA. Mira is a torp\nB. Mira is not a torp\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_097",
+    "family": "logic",
+    "kind": "choice",
+    "prompt": "Every dax is a neral. No neral is a pavo. Which conclusion follows?\nA. Every dax is a pavo\nB. No dax is a pavo\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_098",
+    "family": "logic",
+    "kind": "choice",
+    "prompt": "If the alarm rings, the lamp turns on. The alarm rings. Which conclusion follows?\nA. The lamp turns on\nB. The lamp remains off\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_099",
+    "family": "logic",
+    "kind": "choice",
+    "prompt": "All ravens are birds. This animal is a raven. Which conclusion follows?\nA. This animal is not a bird\nB. This animal is a bird\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_100",
+    "family": "logic",
+    "kind": "choice",
+    "prompt": "No metal object is transparent. The token is metal. Which conclusion follows?\nA. The token is not transparent\nB. The token is transparent\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_101",
+    "family": "logic",
+    "kind": "choice",
+    "prompt": "If a file is archived, it is stored. This file is archived. Which conclusion follows?\nA. This file is deleted\nB. This file is stored\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_102",
+    "family": "logic",
+    "kind": "choice",
+    "prompt": "Every pilot has training. Dana is a pilot. Which conclusion follows?\nA. Dana has training\nB. Dana has no training\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_103",
+    "family": "logic",
+    "kind": "choice",
+    "prompt": "All squares are polygons. Shape R is a square. Which conclusion follows?\nA. Shape R is not a polygon\nB. Shape R is a polygon\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_104",
+    "family": "logic",
+    "kind": "choice",
+    "prompt": "If the gate is locked, entry is blocked. The gate is locked. Which conclusion follows?\nA. Entry is blocked\nB. Entry is guaranteed\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_105",
+    "family": "logic",
+    "kind": "choice",
+    "prompt": "No reptile has feathers. The animal is a reptile. Which conclusion follows?\nA. The animal has feathers\nB. The animal has no feathers\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_106",
+    "family": "logic",
+    "kind": "choice",
+    "prompt": "Every registered item has an identifier. Item K is registered. Which conclusion follows?\nA. Item K has an identifier\nB. Item K has no identifier\nRespond with exactly A or B.",
+    "expected_answer": "A"
+  },
+  {
+    "probe_id": "remote_107",
+    "family": "logic",
+    "kind": "choice",
+    "prompt": "If the switch is pressed, the bell sounds. The switch is pressed. Which conclusion follows?\nA. The bell stays silent\nB. The bell sounds\nRespond with exactly A or B.",
+    "expected_answer": "B"
+  },
+  {
+    "probe_id": "remote_108",
+    "family": "short_answer",
+    "kind": "open",
+    "prompt": "Compute 31 minus 4. Return only the integer.",
+    "expected_answer": "27"
+  },
+  {
+    "probe_id": "remote_109",
+    "family": "short_answer",
+    "kind": "open",
+    "prompt": "Compute 32 minus 5. Return only the integer.",
+    "expected_answer": "27"
+  },
+  {
+    "probe_id": "remote_110",
+    "family": "short_answer",
+    "kind": "open",
+    "prompt": "Compute 33 minus 6. Return only the integer.",
+    "expected_answer": "27"
+  },
+  {
+    "probe_id": "remote_111",
+    "family": "short_answer",
+    "kind": "open",
+    "prompt": "Compute 34 minus 7. Return only the integer.",
+    "expected_answer": "27"
+  },
+  {
+    "probe_id": "remote_112",
+    "family": "short_answer",
+    "kind": "open",
+    "prompt": "Compute 35 minus 8. Return only the integer.",
+    "expected_answer": "27"
+  },
+  {
+    "probe_id": "remote_113",
+    "family": "short_answer",
+    "kind": "open",
+    "prompt": "Compute 36 minus 9. Return only the integer.",
+    "expected_answer": "27"
+  },
+  {
+    "probe_id": "remote_114",
+    "family": "short_answer",
+    "kind": "open",
+    "prompt": "Compute 37 minus 4. Return only the integer.",
+    "expected_answer": "33"
+  },
+  {
+    "probe_id": "remote_115",
+    "family": "short_answer",
+    "kind": "open",
+    "prompt": "Compute 38 minus 5. Return only the integer.",
+    "expected_answer": "33"
+  },
+  {
+    "probe_id": "remote_116",
+    "family": "short_answer",
+    "kind": "open",
+    "prompt": "Compute 39 minus 6. Return only the integer.",
+    "expected_answer": "33"
+  },
+  {
+    "probe_id": "remote_117",
+    "family": "short_answer",
+    "kind": "open",
+    "prompt": "Compute 40 minus 7. Return only the integer.",
+    "expected_answer": "33"
+  },
+  {
+    "probe_id": "remote_118",
+    "family": "short_answer",
+    "kind": "open",
+    "prompt": "Compute 41 minus 8. Return only the integer.",
+    "expected_answer": "33"
+  },
+  {
+    "probe_id": "remote_119",
+    "family": "short_answer",
+    "kind": "open",
+    "prompt": "Compute 42 minus 9. Return only the integer.",
+    "expected_answer": "33"
+  },
+  {
+    "probe_id": "remote_120",
+    "family": "transformation",
+    "kind": "open",
+    "prompt": "Convert RIVER to lowercase. Return only the transformed token.",
+    "expected_answer": "river"
+  },
+  {
+    "probe_id": "remote_121",
+    "family": "transformation",
+    "kind": "open",
+    "prompt": "Convert CANDLE to lowercase. Return only the transformed token.",
+    "expected_answer": "candle"
+  },
+  {
+    "probe_id": "remote_122",
+    "family": "transformation",
+    "kind": "open",
+    "prompt": "Convert PLANET to lowercase. Return only the transformed token.",
+    "expected_answer": "planet"
+  },
+  {
+    "probe_id": "remote_123",
+    "family": "transformation",
+    "kind": "open",
+    "prompt": "Convert MARBLE to lowercase. Return only the transformed token.",
+    "expected_answer": "marble"
+  },
+  {
+    "probe_id": "remote_124",
+    "family": "transformation",
+    "kind": "open",
+    "prompt": "Convert WINDOW to lowercase. Return only the transformed token.",
+    "expected_answer": "window"
+  },
+  {
+    "probe_id": "remote_125",
+    "family": "transformation",
+    "kind": "open",
+    "prompt": "Convert MARKET to lowercase. Return only the transformed token.",
+    "expected_answer": "market"
+  },
+  {
+    "probe_id": "remote_126",
+    "family": "transformation",
+    "kind": "open",
+    "prompt": "Convert FOREST to lowercase. Return only the transformed token.",
+    "expected_answer": "forest"
+  },
+  {
+    "probe_id": "remote_127",
+    "family": "transformation",
+    "kind": "open",
+    "prompt": "Convert POCKET to lowercase. Return only the transformed token.",
+    "expected_answer": "pocket"
+  },
+  {
+    "probe_id": "remote_128",
+    "family": "transformation",
+    "kind": "open",
+    "prompt": "Convert SILVER to lowercase. Return only the transformed token.",
+    "expected_answer": "silver"
+  },
+  {
+    "probe_id": "remote_129",
+    "family": "transformation",
+    "kind": "open",
+    "prompt": "Convert GARDEN to lowercase. Return only the transformed token.",
+    "expected_answer": "garden"
+  },
+  {
+    "probe_id": "remote_130",
+    "family": "transformation",
+    "kind": "open",
+    "prompt": "Convert BUTTON to lowercase. Return only the transformed token.",
+    "expected_answer": "button"
+  },
+  {
+    "probe_id": "remote_131",
+    "family": "transformation",
+    "kind": "open",
+    "prompt": "Convert ENGINE to lowercase. Return only the transformed token.",
+    "expected_answer": "engine"
+  }
+]

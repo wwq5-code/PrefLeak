@@ -1,0 +1,8 @@
+{
+  "source": "../data/joint_vlm_paper",
+  "reuse_policy": "immutable visual comparison manifests and image assets only",
+  "train_split": "COCO train2017 shadows",
+  "target_split": "COCO val2017 held-out targets",
+  "preference_axis": "magenta_cyan",
+  "private_preference_words_in_dpo_prompt_or_answer": false
+}

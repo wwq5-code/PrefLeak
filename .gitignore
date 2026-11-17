@@ -1,0 +1,77 @@
+# Local tools and editor state
+.DS_Store
+.idea/
+.agents/
+.vscode/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Paper and local presentation artifacts
+Paper_Writing/
+Experimental_Results/
+output/
+tmp/
+
+# External source checkouts and unrelated exploratory repositories
+trl/
+On_CIFAR100/third_party/
+Text_only/FormEstDistRisks/
+Text_only/Multimodal-membership-inference/
+Text_only/Privacy_Different_Task/
+Text_only/lpoi/
+
+# Data, models, adapters, checkpoints, and generated experiment artifacts
+data/
+**/data/
+models/
+**/models/
+outputs/
+**/outputs/
+results/
+**/results/
+logs/
+**/logs/
+adapters/
+**/adapters/
+checkpoints/
+**/checkpoints/
+Text_only/Repeated_Response/
+
+# Generated or downloaded files
+*.jsonl
+*.csv
+*.tsv
+*.log
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+*.npy
+*.npz
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# Result summaries and local experiment ledgers
+**/*.md
+!/README.md
+*_RESULTS.md
+*_METRICS.md
+EXPERIMENT_LOG.md
+
+# Keep the public prompt/configuration JSON files; generated JSON files live
+# under ignored data/output directories.
+
